@@ -1,0 +1,7 @@
+replace value of node 
+doc("BD_Libros2.xml")//Libros/libro[1]/Titulo 
+with "Conversacion en la Catedral"
+,
+replace node 
+doc("BD_Libros2.xml")//Libros/libro[1]/ISBN
+with <ISBN>985423020</ISBN>
